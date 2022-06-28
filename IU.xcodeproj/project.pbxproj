@@ -13,6 +13,11 @@
 		6338C7E4286B5943005EA31F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6338C7E3286B5943005EA31F /* Preview Assets.xcassets */; };
 		6338C7E6286B5943005EA31F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338C7E5286B5943005EA31F /* Persistence.swift */; };
 		6338C7E9286B5943005EA31F /* IU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6338C7E7286B5943005EA31F /* IU.xcdatamodeld */; };
+		6338C7F0286B59E5005EA31F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338C7EF286B59E5005EA31F /* MainView.swift */; };
+		6338C7F3286B5A2B005EA31F /* TodolistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338C7F2286B5A2B005EA31F /* TodolistView.swift */; };
+		6338C7F5286B5A35005EA31F /* CalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338C7F4286B5A35005EA31F /* CalView.swift */; };
+		6338C7F9286B5A67005EA31F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338C7F8286B5A67005EA31F /* SettingsView.swift */; };
+		6338C7FE286B5D7E005EA31F /* MyTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338C7FD286B5D7E005EA31F /* MyTodo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		6338C7E3286B5943005EA31F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6338C7E5286B5943005EA31F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6338C7E8286B5943005EA31F /* IU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IU.xcdatamodel; sourceTree = "<group>"; };
+		6338C7EF286B59E5005EA31F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6338C7F2286B5A2B005EA31F /* TodolistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistView.swift; sourceTree = "<group>"; };
+		6338C7F4286B5A35005EA31F /* CalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalView.swift; sourceTree = "<group>"; };
+		6338C7F8286B5A67005EA31F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6338C7FD286B5D7E005EA31F /* MyTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,12 @@
 		6338C7DB286B5941005EA31F /* IU */ = {
 			isa = PBXGroup;
 			children = (
+				6338C7FA286B5ABE005EA31F /* class */,
+				6338C7F1286B5A0C005EA31F /* view */,
 				6338C7DC286B5941005EA31F /* IUApp.swift */,
-				6338C7DE286B5941005EA31F /* ContentView.swift */,
-				6338C7E0286B5943005EA31F /* Assets.xcassets */,
 				6338C7E5286B5943005EA31F /* Persistence.swift */,
 				6338C7E7286B5943005EA31F /* IU.xcdatamodeld */,
+				6338C7E0286B5943005EA31F /* Assets.xcassets */,
 				6338C7E2286B5943005EA31F /* Preview Content */,
 			);
 			path = IU;
@@ -71,6 +82,26 @@
 				6338C7E3286B5943005EA31F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6338C7F1286B5A0C005EA31F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6338C7DE286B5941005EA31F /* ContentView.swift */,
+				6338C7EF286B59E5005EA31F /* MainView.swift */,
+				6338C7F2286B5A2B005EA31F /* TodolistView.swift */,
+				6338C7F4286B5A35005EA31F /* CalView.swift */,
+				6338C7F8286B5A67005EA31F /* SettingsView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6338C7FA286B5ABE005EA31F /* class */ = {
+			isa = PBXGroup;
+			children = (
+				6338C7FD286B5D7E005EA31F /* MyTodo.swift */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6338C7E6286B5943005EA31F /* Persistence.swift in Sources */,
+				6338C7FE286B5D7E005EA31F /* MyTodo.swift in Sources */,
+				6338C7F9286B5A67005EA31F /* SettingsView.swift in Sources */,
 				6338C7E9286B5943005EA31F /* IU.xcdatamodeld in Sources */,
 				6338C7DF286B5941005EA31F /* ContentView.swift in Sources */,
+				6338C7F0286B59E5005EA31F /* MainView.swift in Sources */,
+				6338C7F3286B5A2B005EA31F /* TodolistView.swift in Sources */,
 				6338C7DD286B5941005EA31F /* IUApp.swift in Sources */,
+				6338C7F5286B5A35005EA31F /* CalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
