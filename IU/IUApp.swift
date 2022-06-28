@@ -13,7 +13,7 @@ struct IUApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TodolistView(myTodoes: testTodoes)
+            TodolistView(myTodoes: MyTodo)
             ContentView()
         }
     }
