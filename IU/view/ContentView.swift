@@ -19,7 +19,7 @@ struct ContentView: View {
                     Image(systemName: "heart")
                     Text("Now")
             }
-            TodolistView(myTodoes: MyTodo)
+            TodolistView(myTodoes: testTodoes)
                 .tabItem {
                     Image(systemName: "checkmark.circle")
                     Text("ToDo")
